@@ -1,16 +1,158 @@
-# React + Vite
+# 💰 Ledger – Finance OS Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, feature-rich **personal finance dashboard** built with React + Vite, designed to track transactions, visualize spending patterns, and provide actionable financial insights.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://financeui.vercel.app?_vercel_share=WvxchjV6mgtA86ex918RVL9cT1CXt5Mc
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📊 Dashboard
 
-## Expanding the ESLint configuration
+* Total balance, monthly income & expenses
+* Savings rate tracking
+* 6-month balance trend visualization
+* Category-wise spending (donut chart)
+* Recent transactions overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🧾 Transaction Management
+
+* Add, edit, and delete transactions
+* Supports:
+
+  * Income
+  * Expense
+  * Transfer
+* Advanced filtering:
+
+  * By type
+  * By category
+  * By month
+* Search functionality
+* Export transactions for reporting 📤
+* Clean and responsive table UI
+
+---
+
+### 📈 Insights & Analytics
+
+* Top spending category detection
+* Month-over-month expense changes
+* Average savings rate analysis
+* Income vs Expense comparison chart
+* Category-wise spending breakdown
+* Weekly spending pattern visualization
+
+---
+
+### 🌙 Dark Mode
+
+* Fully implemented dark theme
+* Optimized for readability
+* Consistent styling across charts and UI
+
+---
+
+### 🎨 UI/UX Highlights
+
+* Clean and minimal design system
+* Sidebar navigation layout
+* Modal-based transaction input
+* Responsive and intuitive interface
+* Consistent financial color coding:
+
+  * 🟢 Income
+  * 🔴 Expense
+  * 🟡 Transfer
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React (Vite)
+* **Charts & Visualization:** Chart.js
+* **State Management:** React Context API
+* **Styling:** Tailwind CSS
+* **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+
+```bash
+my-app/
+│
+├── public/
+├── src/
+│   ├── assets/        # Icons, images
+│   ├── charts/        # Chart components
+│   ├── components/    # Reusable UI components
+│   ├── context/       # Global state management
+│   ├── data/          # Static/mock data
+│   ├── pages/         # Dashboard, Transactions, Insights
+│   ├── utils/         # Helper functions
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── App.css
+│   └── index.css
+│
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## ⚙️ Setup & Installation
+
+```bash
+git clone https://github.com/Ritiksparta57/Desktop.git
+cd Desktop/my-app
+npm install
+npm run dev
+```
+
+---
+
+## 🏗️ Build
+
+```bash
+npm run build
+```
+
+---
+
+## 📱 Responsiveness
+
+* Optimized for desktop and tablet
+* Clean layout across screen sizes
+* Structured UI for readability
+
+---
+
+## 💡 Key Highlights
+
+* Built a **complete CRUD system** for financial transactions
+* Implemented **real-time UI updates with charts**
+* Designed a **modular and scalable folder structure**
+*  Added export functionality for data portability
+* Focused on **user experience and clarity of financial data**
+
+---
+
+## 👨‍💻 Author
+
+**Ritik Kr Pandey**
+🔗 https://github.com/Ritiksparta57
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub!
+
+---
